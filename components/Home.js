@@ -1,14 +1,14 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import { useUser } from './UserContext';
 
 function Home() {
 	const { user, logout } = useUser();
-	const navigate = useNavigate();
+	const router = useRouter();
 	const handleLogout = async () => {
 		try {
 			await logout();
-			navigate('/login');
+			router.replace('/login');
 		} catch (err) {
 			console.log(err);
 		}
