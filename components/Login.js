@@ -62,7 +62,7 @@ function Login() {
 				</button>
 				<p className="scondtxt">dont have an account</p>
 				<button className="scondbtn" onClick={signupPage}>
-					signup
+					Signup
 				</button>
 			</div>
 		</form>
