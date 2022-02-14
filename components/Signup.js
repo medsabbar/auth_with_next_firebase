@@ -76,7 +76,7 @@ function Signup() {
 				</button>
 				<p className="scondtxt">alrealy have an account?</p>
 				<button className="scondbtn" onClick={handswitch}>
-					Signin
+					Login
 				</button>
 			</div>
 		</form>
