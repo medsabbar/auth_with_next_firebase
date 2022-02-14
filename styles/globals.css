@@ -95,7 +95,7 @@ input[type='password'] {
 	font-size: 1.2rem;
 	box-shadow: 0px 0px 5px 4px #b3d9ff;
 }
-.loginbtn:hover {
+.primbtn:hover {
 	opacity: 0.8;
 }
 .scondbtn:hover {
@@ -120,4 +120,19 @@ label {
 		width: 100%;
 		margin-left: 0;
 	}
+}
+
+.logoutbtn {
+	background-color: #e0392d;
+	padding: 15px 25px;
+	font-size: 1.2rem;
+	margin-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	box-shadow: 0px 0px 4px 1px gray;
+	border: none;
+	border-radius: 15px;
+}
+.logoutbtn:hover {
+	opacity: 0.8;
 }

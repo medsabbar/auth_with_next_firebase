@@ -18,7 +18,9 @@ function Home() {
 			<h2>Wellcome</h2>
 			{user && user.email}
 			<br />
-			<button onClick={handleLogout}>logout</button>
+			<button onClick={handleLogout} className="logoutbtn">
+				Logout
+			</button>
 		</div>
 	);
 }

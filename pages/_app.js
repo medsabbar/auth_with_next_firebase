@@ -34,6 +34,7 @@ function MyApp({ Component, pageProps }) {
 		});
 		if (pageProps.protected && !user) {
 			router.push('/login');
+			return;
 		}
 	}, []);
 
